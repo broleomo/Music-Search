@@ -1,0 +1,90 @@
+
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("img/Panasonic_Headphones.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.heading {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heading h1{
+  color: #232C33;
+  padding-top:20px;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  opacity: 0.75;
+  margin-top: 10px;
+  font-size: 85px;
+  /*font-weight: bold;*/
+  background-color:white;
+  border-radius: 10px;
+  width: 700px;
+  height: 110px;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  justify-content: center;
+
+}
+.navigation-bar {
+  padding-top: 30px;
+  align-items: center;
+  width: 800px;
+}
+.searchBar {
+  width: 400px;
+  border-radius: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size:30px;
+  text-align: center;
+}
+
+.results {
+  display:flex;
+  /*width: 800px;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: center;*/
+  /*align-items: center;*/
+  margin: 10px;
+
+}
+.result {
+  /*border: 2px solid pink;*/
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #DEE0DB;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  padding: 2px;
+}
+.artistName {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.artistSong, .artistAlbum {
+  font-size: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+footer p {
+align-items: center;
+font-family: 'Raleway', sans-serif;
+}
+.website {
+  text-decoration: underline;
+}
